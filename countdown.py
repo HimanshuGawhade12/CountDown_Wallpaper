@@ -4,7 +4,7 @@ import ctypes
 from datetime import datetime
 import time
 
-target_date = datetime(2025, 4, 30, 23, 59, 59)
+target_date = datetime(2025, 4, 30, 23, 59, 59)  # Target date in formate : (yyyy,mm,dd,hh,mm,ss)
 
 def create_wallpaper():
     now = datetime.now()
@@ -25,7 +25,7 @@ def create_wallpaper():
     image = Image.new('RGB', (width, height), (0, 0, 0)) 
     draw = ImageDraw.Draw(image)
   
-    font_path =  "GLECB.TTF"
+    font_path =  "GLECB.TTF" # GLECB font
     try:
         number_font = ImageFont.truetype(font_path, 200)  
         label_font = ImageFont.truetype(font_path, 60)  
