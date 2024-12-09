@@ -31,7 +31,7 @@ target_date = datetime(2025, 4, 30, 23, 59, 59)
 ### 2. Run the Script
 Execute the script using the following command:
 ```bash
-python script_name.py
+python countdown.py
 ```
 
 ### 3. Enjoy Your Countdown Wallpaper
